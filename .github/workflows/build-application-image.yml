@@ -3,7 +3,7 @@ name: build application image
 on: 
   push:
     paths:
-      - "./Dockerfile"
+      - "Dockerfile"
     branches:
       - main
   workflow_dispatch:
