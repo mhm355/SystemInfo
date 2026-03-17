@@ -7,9 +7,9 @@ on:
     branches:
       - main
   workflow_dispatch:
-runs-on: ubuntu-latest
 jobs:
   build_and_push_image:
+    runs-on: ubuntu-latest
     env:
       IMAGE_NAME: sysinfo
     steps:
