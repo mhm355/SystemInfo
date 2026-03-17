@@ -14,7 +14,7 @@ jobs:
       IMAGE_NAME: sysinfo
     steps:
       - name: checkout the code
-        use: actions/checkout@v5
+        uses: actions/checkout@v5
         with:
           fetch-depth: '1'
       - name: create image tag
