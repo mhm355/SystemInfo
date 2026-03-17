@@ -8,33 +8,3 @@ RUN npm install
 
 CMD ["npm", "start", "sysinfo.js"]
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
