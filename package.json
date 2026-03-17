@@ -1,0 +1,13 @@
+{
+  "name": "syswatch",
+  "version": "2.0.0",
+  "description": "Professional real-time system monitor dashboard",
+  "main": "sysinfo.js",
+  "scripts": {
+    "start": "node sysinfo.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "systeminformation": "^5.22.11"
+  }
+}
